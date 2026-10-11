@@ -1,0 +1,10 @@
+a=123
+add=0
+first=a//10
+lastdigit=a%10
+add=lastdigit+add
+seconddigit=first%10
+add=seconddigit+add
+firstdigit=first//10
+add=firstdigit+add
+print(add)
